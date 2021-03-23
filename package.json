@@ -1,0 +1,21 @@
+{
+    "name": "vscode-theme-darcula",
+    "displayName": "Darcula Theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Darcula",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Darcula-color-theme.json"
+            }
+        ]
+    }
+}
