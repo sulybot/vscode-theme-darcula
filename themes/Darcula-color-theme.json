@@ -7,7 +7,7 @@
 		// "activityBarBadge.background": "#007acc",
 		// "sideBarTitle.foreground": "#bbbbbb",
 	},
-	"tokenColors":[
+	"tokenColors": [
 		{
 			"name": "Comment Common",
 			"scope": "comment",
@@ -17,62 +17,67 @@
 		},
 		{
 			"name": "Comment Block Doc",
-			"scope":[
-				"comment.block.documentation",
-				"comment.block.javadoc"
-			],
+			"scope": "comment.block.documentation",
 			"settings": {
 				"foreground": "#629755",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope":[
-				"comment.block.documentation keyword.other",
-			],
+			"name": "Comment Block Doc Label",
+			"scope": "comment.block.documentation keyword.other",
 			"settings": {
-				// "foreground": "#629755",
 				"fontStyle": "italic bold underline"
 			}
 		},
 		{
 			"name": "String Common",
-			"scope":[
+			"scope": [
 				"string.quoted",
+				"string.unquoted",
 				"string.other",
-				"string.unquoted.heredoc",
-				"punctuation.definition.string.begin",
-				"punctuation.definition.string.end"
+				"string.quoted punctuation.definition.string",
 			],
 			"settings": {
 				"foreground": "#6A8759",
 			}
 		},
 		{
+			"name": "String Evaluated",
+			"scope": [
+				"string.interpolated",
+				"string.interpolated punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#A5C25C"
+			}
+		},
+		{
 			"name": "Heredoc ID",
-			"scope":[
-				"keyword.operator.heredoc",
-				"punctuation.definition.string"
+			"scope": [
+				"string.unquoted keyword.operator",
+				"string.unquoted punctuation.definition.string"
 			],
 			"settings": {
 				"foreground": "#A9B7C6",
 			}
 		},
 		{
-			"name": "String Evaluated",
-			"scope":"string.interpolated",
-			"settings": {
-				"foreground": "#A5C25C"
-			}
-		},
-		{
-			"name": "Constant Regexp Numeric",
-			"scope":[
+			"name": "Constant Regexp/Numeric",
+			"scope": [
 				"string.regexp",
 				"constant.numeric"
 			],
 			"settings": {
 				"foreground": "#6897BB"
+			}
+		},
+		{
+			"name": "Constant Identifier",
+			"scope": "constant.other",
+			"settings": {
+				"foreground": "#9876AA",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -90,8 +95,18 @@
 			}
 		},
 		{
+			"name": "Punctuation Common",
+			"scope": [
+				"punctuation.terminator",
+				"punctuation.separator"
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		{
 			"name": "Variable Common",
-			"scope":[
+			"scope": [
 				"variable.language",
 				"variable.other"
 			],
@@ -100,24 +115,45 @@
 			}
 		},
 		{
-			"scope":"meta.attribute",
+			"name": "Class/Interface Declaration",
+			"scope": [
+				"meta.class entity.name",
+				"meta.interface entity.name"
+			],
 			"settings": {
-				"foreground": "#BBB529"
+				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope":[
+			"name": "Function/Method Declaration",
+			"scope": [
 				"meta.function entity.name.function",
-				"meta.method-call entity.name.function"
+				"meta.method entity.name.function",
 			],
 			"settings": {
 				"foreground": "#FFC66D",
+				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope":[
-				"meta.method-call.static entity.name.function"
-			],
+			"name": "Function Call",
+			"scope": "meta.function-call entity.name.function",
+			"settings": {
+				"foreground": "#A9B7C6",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Method Call",
+			"scope": "meta.method-call entity.name.function",
+			"settings": {
+				"foreground": "#FFC66D",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Static Method Call",
+			"scope": "meta.method-call.static entity.name.function",
 			"settings": {
 				"foreground": "#FFC66D",
 				"fontStyle": "italic"
