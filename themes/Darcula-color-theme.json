@@ -8,6 +8,7 @@
 		// "sideBarTitle.foreground": "#bbbbbb",
 	},
 	"tokenColors": [
+		// common color scheme support
 		{
 			"name": "Comment Common",
 			"scope": "comment",
@@ -157,6 +158,45 @@
 			"settings": {
 				"foreground": "#FFC66D",
 				"fontStyle": "italic"
+			}
+		},
+		// support for xml
+		{
+			"name": "Xml Tag/TagName",
+			"scope": [
+				"text.xml meta.tag entity.name",
+				"text.xml meta.tag punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#E8BF6A"
+			}
+		},
+		{
+			"name": "Xml Attribute Name",
+			"scope": "text.xml meta.tag entity.other.attribute-name",
+			"settings": {
+				"foreground": "#BABABA",
+			}
+		},
+		{
+			"name": "Xml Attribute Value",
+			"scope": "text.xml meta.tag string.quoted",
+			"settings": {
+				"foreground": "#6A8759"
+			}
+		},
+		{
+			"name": "Xml Entity",
+			"scope": "text.xml constant.character.entity",
+			"settings": {
+				"foreground": "#6D9CBE"
+			}
+		},
+		{
+			"name": "Xml CDATA",
+			"scope": "text.xml string.unquoted.cdata",
+			"settings": {
+				"foreground": "#A9B7C6",
 			}
 		}
 	]
