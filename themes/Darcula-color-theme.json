@@ -235,6 +235,66 @@
 			"settings": {
 				"foreground": "#6D9CBE",
 			}
+		},
+		// support for css
+		{
+			"name": "CSS Selector",
+			"scope": [
+				"source.css meta.selector entity",
+				"source.css meta.selector support.constant"
+			],
+			"settings": {
+				"foreground": "#E8BF6A"
+			}
+		},
+		{
+			"name": "CSS Property Name",
+			"scope": "source.css meta.property-name",
+			"settings": {
+				"foreground": "#BABABA"
+			}
+		},
+		{
+			"name": "CSS Property Value",
+			"scope": "source.css meta.property-value",
+			"settings": {
+				"foreground": "#A5C261"
+			}
+		},
+		{
+			"name": "CSS Property Value Function/Unicode",
+			"scope": [
+				"source.css meta.property-value meta.function support.function",
+				"source.css meta.property-value constant.other.unicode-range",
+				"source.css meta.property-value constant.other.unicode-range punctuation.separator.dash.unicode-range"
+			],
+			"settings": {
+				"foreground": "#E8BF6A"
+			}
+		},
+		{
+			"name": "CSS Property Value Function Parameter Url",
+			"scope": "source.css meta.property-value meta.function variable.parameter.url",
+			"settings": {
+				"foreground": "#287BDE"
+			}
+		},
+		{
+			"name": "CSS Property Value Function bracket",
+			"scope": [
+				"source.css meta.property-value meta.function punctuation.section",
+				"source.css meta.property-value constant.numeric keyword.other.unit.percentage"
+			],
+			"settings": {
+				"foreground": "#A9B7C6"
+			}
+		},
+		{
+			"name": "CSS Property Value Hex Color",
+			"scope": "source.css meta.property-value constant.other.color.rgb-value.hex",
+			"settings": {
+				"foreground": "#6897BB"
+			}
 		}
 	]
 	/*"tokenColors": [
