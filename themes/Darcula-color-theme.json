@@ -320,6 +320,14 @@
 			"settings": {
 				"foreground": "#CC7832"
 			}
+		},
+		// support for json
+		{
+			"name": "Json Property Name",
+			"scope":"source.json support.type.property-name",
+			"settings": {
+				"foreground": "#9876AA"
+			}
 		}
 	]
 	/*"tokenColors": [
