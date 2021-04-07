@@ -295,6 +295,31 @@
 			"settings": {
 				"foreground": "#6897BB"
 			}
+		},
+		// support for ini
+		{
+			"name": "INI Default",
+			"scope": "source.ini",
+			"settings": {
+				"foreground": "#6A8759"
+			}
+		},
+		{
+			"name": "INI Property Name",
+			"scope": [
+				"source.ini keyword.other",
+				"source.ini punctuation.separator.key-value"
+			],
+			"settings": {
+				"foreground": "#A9B7C6"
+			}
+		},
+		{
+			"name": "INI Section",
+			"scope": "source.ini entity.name.section.group-title",
+			"settings": {
+				"foreground": "#CC7832"
+			}
 		}
 	]
 	/*"tokenColors": [
