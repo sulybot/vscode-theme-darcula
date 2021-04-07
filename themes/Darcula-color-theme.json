@@ -198,6 +198,43 @@
 			"settings": {
 				"foreground": "#A9B7C6",
 			}
+		},
+		// support for html
+		{
+			"name": "HTML Tag/Tag Name",
+			"scope": [
+				"text.html meta.tag entity.name",
+				"text.html meta.tag punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#E8BF6A"
+			}
+		},
+		{
+			"name": "HTML Attribute Name",
+			"scope": "text.html meta.tag meta.attribute entity",
+			"settings": {
+				"foreground": "#BABABA",
+			}
+		},
+		{
+			"name": "HTML Attribute Value",
+			"scope": [
+				"text.html meta.tag meta.attribute string.unquoted",
+				"text.html meta.tag meta.attribute string.quoted",
+				"text.html meta.tag meta.attribute string punctuation.definition.string",
+				"text.html meta.tag meta.attribute punctuation.separator",
+			],
+			"settings": {
+				"foreground": "#A5C261",
+			}
+		},
+		{
+			"name": "HTML Entity",
+			"scope": "text.html constant.character.entity",
+			"settings": {
+				"foreground": "#6D9CBE",
+			}
 		}
 	]
 	/*"tokenColors": [
