@@ -324,9 +324,42 @@
 		// support for json
 		{
 			"name": "Json Property Name",
-			"scope":"source.json support.type.property-name",
+			"scope": "source.json support.type.property-name",
 			"settings": {
 				"foreground": "#9876AA"
+			}
+		},
+		// support for yaml
+		{
+			"name": "Yaml Property Name",
+			"scope": "source.yaml entity.name.tag",
+			"settings": {
+				"foreground": "#CC7832",
+			}
+		},
+		{
+			"name": "Yaml Default",
+			"scope": [
+				"source.yaml punctuation.separator.key-value",
+				"source.yaml constant.numeric",
+				"source.yaml constant.language",
+				"source.yaml keyword.control.flow",
+				"source.yaml string.unquoted.block",
+				"source.yaml string.unquoted.plain",
+				"source.yaml meta.property punctuation.definition.anchor"
+			],
+			"settings": {
+				"foreground": "#A9B7C6",
+			}
+		},
+		{
+			"name": "Yaml Anchor/Alias",
+			"scope": [
+				"source.yaml meta.property entity.name.type.anchor",
+				"source.yaml variable.other.alias",
+			],
+			"settings": {
+				"foreground": "#E8BF6A",
 			}
 		}
 	]
