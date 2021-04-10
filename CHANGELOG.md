@@ -1,9 +1,4 @@
-# Change Log
-
-All notable changes to the "vscode-theme-darcula" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+## v0.0.1
+- Add textMate common syntax support
+- Add PHP/JS/HTML/CSS color scheme support
+- Add XML/JSON/YAML/INI/Dockerfile/Markdown color scheme support
