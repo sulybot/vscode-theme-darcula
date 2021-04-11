@@ -1,7 +1,7 @@
 {
     "name": "vscode-theme-darcula",
     "displayName": "Darcula Theme",
-    "description": "",
+    "description": "A theme extension for VS Code based on Darcula from JetBrains.",
     "version": "0.0.1",
     "engines": {
         "vscode": "*"
