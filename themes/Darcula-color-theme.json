@@ -28,6 +28,7 @@
 			"name": "Comment Block Doc Label",
 			"scope": "comment.block.documentation keyword.other",
 			"settings": {
+				"foreground": "#629755",
 				"fontStyle": "italic bold underline"
 			}
 		},
@@ -471,6 +472,70 @@
 			"scope": "source.php meta.attribute support.attribute",
 			"settings": {
 				"foreground": "#BBB529",
+			}
+		},
+		// support for javascript
+		{
+			"name": "JS Comment Block Doc Label",
+			"scope": "source.js comment.block.documentation storage.type",
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic bold underline"
+			}
+		},
+		{
+			"name": "JS Comment Block Doc Type/Variable",
+			"scope": [
+				"source.js comment.block.documentation entity.name.type.instance",
+				"source.js comment.block.documentation variable.other",
+			],
+			"settings": {
+				"foreground": "#8A653B",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "JS This Keyword",
+			"scope": "source.js meta.function variable.language.this",
+			"settings": {
+				"foreground": "#CC7832",
+			}
+		},
+		{
+			"name": "JS Function Call",
+			"scope": "source.js meta.function-call entity.name.function",
+			"settings": {
+				"foreground": "#FFC66D",
+			}
+		},
+		{
+			"name": "JS Regexp",
+			"scope": [
+				"source.js string.regexp",
+				"source.js string.regexp keyword.control",
+				"source.js string.regexp constant.other",
+			],
+			"settings": {
+				"foreground": "#6897BB",
+			}
+		},
+		{
+			"name": "JS Decorator",
+			"scope": [
+				"source.js meta.decorator",
+				"source.js meta.decorator meta.function-call entity.name.function",
+			],
+			"settings": {
+				"foreground": "#BBB529",
+			}
+		},
+		{
+			"name": "JS Type",
+			"scope": [
+				"source.js support.type.primitive"
+			],
+			"settings": {
+				"foreground": "#CC7832",
 			}
 		}
 	]
