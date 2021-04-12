@@ -106,16 +106,6 @@
 			}
 		},
 		{
-			"name": "Variable Common",
-			"scope": [
-				"variable.language",
-				"variable.other"
-			],
-			"settings": {
-				"foreground": "#9876AA"
-			}
-		},
-		{
 			"name": "Class/Interface Declaration",
 			"scope": [
 				"meta.class entity.name",

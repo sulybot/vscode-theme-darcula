@@ -1,3 +1,6 @@
+## v0.1.1
+- Fix variable common color to default
+
 ## v0.1.0
 - Add textMate common syntax support
 - Add PHP/JS/HTML/CSS color scheme support
