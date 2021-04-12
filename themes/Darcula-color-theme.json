@@ -474,6 +474,16 @@
 				"foreground": "#BBB529",
 			}
 		},
+		{
+			"name": "PHP Arguments Name",
+			"scope": [
+				"source.php meta.method-call entity.name.variable.parameter",
+				"source.php meta.function-call entity.name.variable.parameter",
+			],
+			"settings": {
+				"foreground": "#467CDA"
+			}
+		},
 		// support for javascript
 		{
 			"name": "JS Comment Block Doc Label",
