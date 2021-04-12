@@ -454,6 +454,24 @@
 			"settings": {
 				"foreground": "#FFC66D"
 			}
+		},
+		// support for php
+		{
+			"name": "PHP Variable",
+			"scope": [
+				"source.php variable.other",
+				"source.php variable.language"
+			],
+			"settings": {
+				"foreground": "#9876AA",
+			}
+		},
+		{
+			"name": "PHP Attribute Annotation",
+			"scope": "source.php meta.attribute support.attribute",
+			"settings": {
+				"foreground": "#BBB529",
+			}
 		}
 	]
 }
