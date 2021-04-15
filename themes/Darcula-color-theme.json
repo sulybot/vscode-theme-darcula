@@ -34,6 +34,9 @@
 		"tab.activeBackground": "#4E5254",
 		"tab.activeForeground": "#FEFEFE",
 		"tab.activeBorder": "#4A88C7",
+
+		// status bar color
+		"statusBar.background": "#3B3B3C",
 	},
 	"tokenColors": [
 		// common color scheme support
