@@ -1,3 +1,6 @@
+## v0.2.0
+- Add adaptation for Java
+
 ## v0.1.3
 - Fix editor tab color scheme to fit vscode UI
 - Fix status bar color scheme

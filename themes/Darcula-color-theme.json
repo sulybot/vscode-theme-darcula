@@ -26,7 +26,6 @@
 		"editor.foldBackground": "#3A3A3A",
 		"editorGutter.background": "#313335",
 		"editorGutter.foldingControlForeground": "#787878",
-
 		// tab color
 		"editorGroupHeader.tabsBackground": "#2B2B2B",
 		"editorGroupHeader.tabsBorder": "#323232",
@@ -34,7 +33,6 @@
 		"tab.activeBackground": "#4E5254",
 		"tab.activeForeground": "#FEFEFE",
 		"tab.activeBorder": "#4A88C7",
-
 		// status bar color
 		"statusBar.background": "#3B3B3C",
 	},
@@ -131,7 +129,7 @@
 			"name": "Punctuation Common",
 			"scope": [
 				"punctuation.terminator",
-				"punctuation.separator"
+				"punctuation.separator.delimiter"
 			],
 			"settings": {
 				"foreground": "#CC7832"
@@ -575,6 +573,48 @@
 			"scope": [
 				"source.js support.type.primitive"
 			],
+			"settings": {
+				"foreground": "#CC7832",
+			}
+		},
+		// support for java
+		{
+			"name": "Java Comment Block Doc",
+			"scope": "source.java comment.block.javadoc",
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Java Comment Block Doc Label",
+			"scope": "source.java comment.block.javadoc keyword.other.documentation.javadoc",
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic bold underline"
+			}
+		},
+		{
+			"name": "Java Comment Block Doc Type",
+			"scope": "source.java comment.block.javadoc variable.parameter",
+			"settings": {
+				"foreground": "#8A653B",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Java Annotation",
+			"scope": [
+				"source.java meta.declaration.annotation storage.type.annotation",
+				"source.java meta.declaration.annotation punctuation.definition.annotation",
+			],
+			"settings": {
+				"foreground": "#BBB529",
+			}
+		},
+		{
+			"name": "Java This Keyword",
+			"scope": "source.java meta.class.body variable.language.this",
 			"settings": {
 				"foreground": "#CC7832",
 			}
