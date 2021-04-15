@@ -1,3 +1,6 @@
+## v0.1.3
+- Fix editor tab color scheme to fit vscode UI
+
 ## v0.1.2
 - Fix editor overall layout color scheme
 - Fix editor tab color scheme

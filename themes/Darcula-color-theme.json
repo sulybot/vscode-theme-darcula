@@ -28,15 +28,12 @@
 		"editorGutter.foldingControlForeground": "#787878",
 
 		// tab color
-		"editorGroup.border": "#323232",
-		"editorGroupHeader.noTabsBackground": "#323232",
-		"editorGroupHeader.tabsBackground": "#3C3F4A",
+		"editorGroupHeader.tabsBackground": "#2B2B2B",
 		"editorGroupHeader.tabsBorder": "#323232",
 		"tab.border": "#474747",
 		"tab.activeBackground": "#4E5254",
 		"tab.activeForeground": "#FEFEFE",
 		"tab.activeBorder": "#4A88C7",
-		"tab.inactiveBackground": "#3C3F41"
 	},
 	"tokenColors": [
 		// common color scheme support
