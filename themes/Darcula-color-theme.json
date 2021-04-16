@@ -672,21 +672,21 @@
 		},
 		{
 			"name": "C# Comment Block Doc Tag",
-			"scope":"source.cs comment.block.documentation meta.tag",
+			"scope": "source.cs comment.block.documentation meta.tag",
 			"settings": {
 				"foreground": "#77B767",
 			}
 		},
 		{
 			"name": "C# Comment Block Doc Tag Attribute",
-			"scope":"source.cs comment.block.documentation meta.tag entity.other.attribute-name",
+			"scope": "source.cs comment.block.documentation meta.tag entity.other.attribute-name",
 			"settings": {
 				"fontStyle": "italic bold underline"
 			}
 		},
 		{
 			"name": "C# Comment Block Doc Tag Attribute Value",
-			"scope":[
+			"scope": [
 				"source.cs comment.block.documentation meta.tag string.quoted",
 				"source.cs comment.block.documentation meta.tag string.quoted punctuation.definition.string"
 			],
@@ -722,6 +722,31 @@
 			],
 			"settings": {
 				"foreground": "#9876AA",
+			}
+		},
+		// support for python
+		{
+			"name": "Python Function Call Arguments Name",
+			"scope": "source.python meta.function-call.arguments variable.parameter.function-call",
+			"settings": {
+				"foreground": "#AA4926",
+			}
+		},
+		{
+			"name": "Python Self Keyword",
+			"scope": "source.python variable.language.special.self",
+			"settings": {
+				"foreground": "#94558D",
+			}
+		},
+		{
+			"name": "Python Magic Variable/Function",
+			"scope": [
+				"source.python support.variable.magic",
+				"source.python support.function.magic",
+			],
+			"settings": {
+				"foreground": "#B200B2",
 			}
 		}
 	]
