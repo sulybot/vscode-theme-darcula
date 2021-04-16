@@ -2,7 +2,7 @@
     "name": "vscode-theme-darcula",
     "displayName": "Darcula Theme",
     "description": "A theme extension for VS Code based on Darcula from JetBrains.",
-    "version": "0.3.0",
+    "version": "1.0.0",
     "publisher": "sulybot",
     "engines": {
         "vscode": "*"
@@ -10,7 +10,7 @@
     "categories": [
         "Themes"
     ],
-    "preview": true,
+    "preview": false,
     "repository": {
         "type": "git",
         "url": "https://github.com/sulybot/vscode-theme-darcula"
