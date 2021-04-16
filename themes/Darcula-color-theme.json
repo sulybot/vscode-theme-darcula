@@ -577,6 +577,14 @@
 				"foreground": "#CC7832",
 			}
 		},
+		// support for coffeescript
+		{
+			"name": "CoffeeScript Keyword",
+			"scope": "source.coffee variable.language",
+			"settings": {
+				"foreground": "#CC7832",
+			}
+		},
 		// support for java
 		{
 			"name": "Java Comment Block Doc",
