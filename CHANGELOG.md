@@ -2,6 +2,7 @@
 - Add adaptation for CoffeeScript
 - Add adaptation for TypeScript
 - Add adaptation for Shell
+- Add semanticHighlighting support
 
 ## v0.2.0
 - Add adaptation for Java

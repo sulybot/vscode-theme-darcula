@@ -1,6 +1,7 @@
 {
 	"name": "Darcula",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		// editor color
 		"editor.background": "#2B2B2B",
