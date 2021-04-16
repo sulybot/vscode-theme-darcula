@@ -618,6 +618,48 @@
 			"settings": {
 				"foreground": "#CC7832",
 			}
+		},
+		// support for go
+		{
+			"name": "Golang Keyword",
+			"scope": "source.go keyword",
+			"settings": {
+				"foreground": "#C7773E",
+			}
+		},
+		{
+			"name": "Golang Operator",
+			"scope":"source.go keyword.operator",
+			"settings": {
+				"foreground": "#A9B7C6",
+			}
+		},
+		{
+			"name": "Golang Comma",
+			"scope":"source.go punctuation.other.comma",
+			"settings": {
+				"foreground": "#CC7832",
+			}
+		},
+		{
+			"name": "Golang Package Name",
+			"scope": [
+				"source.go entity.name.package",
+				"source.go entity.alias.import"
+			],
+			"settings": {
+				"foreground": "#AFBF7E",
+			}
+		},
+		{
+			"name": "Golang Function Name",
+			"scope":[
+				"source.go entity.name.function",
+				"source.go support.function"
+			],
+			"settings": {
+				"foreground": "#E6B163",
+			}
 		}
 	]
 }
