@@ -26,7 +26,6 @@
 		"editor.foldBackground": "#3A3A3A",
 		"editorGutter.background": "#313335",
 		"editorGutter.foldingControlForeground": "#787878",
-
 		// tab color
 		"editorGroupHeader.tabsBackground": "#2B2B2B",
 		"editorGroupHeader.tabsBorder": "#323232",
@@ -34,7 +33,6 @@
 		"tab.activeBackground": "#4E5254",
 		"tab.activeForeground": "#FEFEFE",
 		"tab.activeBorder": "#4A88C7",
-
 		// status bar color
 		"statusBar.background": "#3B3B3C",
 	},
@@ -131,7 +129,7 @@
 			"name": "Punctuation Common",
 			"scope": [
 				"punctuation.terminator",
-				"punctuation.separator"
+				"punctuation.separator.delimiter"
 			],
 			"settings": {
 				"foreground": "#CC7832"
@@ -577,6 +575,178 @@
 			],
 			"settings": {
 				"foreground": "#CC7832",
+			}
+		},
+		// support for java
+		{
+			"name": "Java Comment Block Doc",
+			"scope": "source.java comment.block.javadoc",
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Java Comment Block Doc Label",
+			"scope": "source.java comment.block.javadoc keyword.other.documentation.javadoc",
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic bold underline"
+			}
+		},
+		{
+			"name": "Java Comment Block Doc Type",
+			"scope": "source.java comment.block.javadoc variable.parameter",
+			"settings": {
+				"foreground": "#8A653B",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Java Annotation",
+			"scope": [
+				"source.java meta.declaration.annotation storage.type.annotation",
+				"source.java meta.declaration.annotation punctuation.definition.annotation",
+			],
+			"settings": {
+				"foreground": "#BBB529",
+			}
+		},
+		{
+			"name": "Java This Keyword",
+			"scope": "source.java meta.class.body variable.language.this",
+			"settings": {
+				"foreground": "#CC7832",
+			}
+		},
+		// support for go
+		{
+			"name": "Golang Keyword",
+			"scope": "source.go keyword",
+			"settings": {
+				"foreground": "#C7773E",
+			}
+		},
+		{
+			"name": "Golang Operator",
+			"scope": "source.go keyword.operator",
+			"settings": {
+				"foreground": "#A9B7C6",
+			}
+		},
+		{
+			"name": "Golang Comma",
+			"scope": "source.go punctuation.other.comma",
+			"settings": {
+				"foreground": "#CC7832",
+			}
+		},
+		{
+			"name": "Golang Package Name",
+			"scope": [
+				"source.go entity.name.package",
+				"source.go entity.alias.import"
+			],
+			"settings": {
+				"foreground": "#AFBF7E",
+			}
+		},
+		{
+			"name": "Golang Function Name",
+			"scope": [
+				"source.go entity.name.function",
+				"source.go support.function"
+			],
+			"settings": {
+				"foreground": "#E6B163",
+			}
+		},
+		// support for C#
+		{
+			"name": "C# Comment Block",
+			"scope": "source.cs comment.block",
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "C# Comment Block Doc Tag",
+			"scope": "source.cs comment.block.documentation meta.tag",
+			"settings": {
+				"foreground": "#77B767",
+			}
+		},
+		{
+			"name": "C# Comment Block Doc Tag Attribute",
+			"scope": "source.cs comment.block.documentation meta.tag entity.other.attribute-name",
+			"settings": {
+				"fontStyle": "italic bold underline"
+			}
+		},
+		{
+			"name": "C# Comment Block Doc Tag Attribute Value",
+			"scope": [
+				"source.cs comment.block.documentation meta.tag string.quoted",
+				"source.cs comment.block.documentation meta.tag string.quoted punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#8A653B",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "C# Keyword",
+			"scope": [
+				"source.cs keyword.type",
+				"source.cs meta.preprocessor keyword.preprocessor",
+				"source.cs meta.preprocessor punctuation.separator.hash"
+			],
+			"settings": {
+				"foreground": "#CC7832",
+			}
+		},
+		{
+			"name": "C# Function Name",
+			"scope": "source.cs entity.name.function",
+			"settings": {
+				"foreground": "#FFC66D",
+			}
+		},
+		{
+			"name": "C# Class Field",
+			"scope": [
+				"source.cs entity.name.variable.event",
+				"source.cs entity.name.variable.field",
+				"source.cs entity.name.variable.property",
+			],
+			"settings": {
+				"foreground": "#9876AA",
+			}
+		},
+		// support for python
+		{
+			"name": "Python Function Call Arguments Name",
+			"scope": "source.python meta.function-call.arguments variable.parameter.function-call",
+			"settings": {
+				"foreground": "#AA4926",
+			}
+		},
+		{
+			"name": "Python Self Keyword",
+			"scope": "source.python variable.language.special.self",
+			"settings": {
+				"foreground": "#94558D",
+			}
+		},
+		{
+			"name": "Python Magic Variable/Function",
+			"scope": [
+				"source.python support.variable.magic",
+				"source.python support.function.magic",
+			],
+			"settings": {
+				"foreground": "#B200B2",
 			}
 		}
 	]
