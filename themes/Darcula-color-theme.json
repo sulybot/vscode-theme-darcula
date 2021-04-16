@@ -585,6 +585,37 @@
 				"foreground": "#CC7832",
 			}
 		},
+		// support for typeScript
+		{
+			"name": "TypeScript Class Field",
+			"scope": "source.ts meta.class variable.object.property",
+			"settings": {
+				"foreground": "#9876AA",
+			}
+		},
+		{
+			"name": "TypeScript This Keyword",
+			"scope": "source.ts meta.class variable.language.this",
+			"settings": {
+				"foreground": "#CC7832",
+			}
+		},
+		{
+			"name": "TypeScript Comment Block Doc Label",
+			"scope": "source.ts comment.block.documentation storage.type.class",
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic bold underline"
+			}
+		},
+		{
+			"name": "TypeScript Comment Block Doc Arguments",
+			"scope": "source.ts comment.block.documentation variable.other",
+			"settings": {
+				"foreground": "#8A653B",
+				"fontStyle": ""
+			}
+		},
 		// support for java
 		{
 			"name": "Java Comment Block Doc",
