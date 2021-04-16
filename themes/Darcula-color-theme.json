@@ -629,14 +629,14 @@
 		},
 		{
 			"name": "Golang Operator",
-			"scope":"source.go keyword.operator",
+			"scope": "source.go keyword.operator",
 			"settings": {
 				"foreground": "#A9B7C6",
 			}
 		},
 		{
 			"name": "Golang Comma",
-			"scope":"source.go punctuation.other.comma",
+			"scope": "source.go punctuation.other.comma",
 			"settings": {
 				"foreground": "#CC7832",
 			}
@@ -653,12 +653,75 @@
 		},
 		{
 			"name": "Golang Function Name",
-			"scope":[
+			"scope": [
 				"source.go entity.name.function",
 				"source.go support.function"
 			],
 			"settings": {
 				"foreground": "#E6B163",
+			}
+		},
+		// support for C#
+		{
+			"name": "C# Comment Block",
+			"scope": "source.cs comment.block",
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "C# Comment Block Doc Tag",
+			"scope":"source.cs comment.block.documentation meta.tag",
+			"settings": {
+				"foreground": "#77B767",
+			}
+		},
+		{
+			"name": "C# Comment Block Doc Tag Attribute",
+			"scope":"source.cs comment.block.documentation meta.tag entity.other.attribute-name",
+			"settings": {
+				"fontStyle": "italic bold underline"
+			}
+		},
+		{
+			"name": "C# Comment Block Doc Tag Attribute Value",
+			"scope":[
+				"source.cs comment.block.documentation meta.tag string.quoted",
+				"source.cs comment.block.documentation meta.tag string.quoted punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#8A653B",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "C# Keyword",
+			"scope": [
+				"source.cs keyword.type",
+				"source.cs meta.preprocessor keyword.preprocessor",
+				"source.cs meta.preprocessor punctuation.separator.hash"
+			],
+			"settings": {
+				"foreground": "#CC7832",
+			}
+		},
+		{
+			"name": "C# Function Name",
+			"scope": "source.cs entity.name.function",
+			"settings": {
+				"foreground": "#FFC66D",
+			}
+		},
+		{
+			"name": "C# Class Field",
+			"scope": [
+				"source.cs entity.name.variable.event",
+				"source.cs entity.name.variable.field",
+				"source.cs entity.name.variable.property",
+			],
+			"settings": {
+				"foreground": "#9876AA",
 			}
 		}
 	]
