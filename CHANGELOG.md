@@ -1,6 +1,7 @@
 ## v0.3.0
 - Add adaptation for CoffeeScript
 - Add adaptation for TypeScript
+- Add adaptation for Shell
 
 ## v0.2.0
 - Add adaptation for Java

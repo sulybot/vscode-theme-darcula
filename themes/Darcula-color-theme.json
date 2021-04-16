@@ -787,6 +787,24 @@
 			"settings": {
 				"foreground": "#B200B2",
 			}
+		},
+		// support for shell
+		{
+			"scope": "source.shell comment.line.number-sign.shebang",
+			"settings": {
+				"foreground": "#A9B7C6",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Shell IO Operator",
+			"scope": [
+				"source.shell keyword.operator.pipe",
+				"source.shell keyword.operator.redirect",
+			],
+			"settings": {
+				"foreground": "#CC7832",
+			}
 		}
 	]
 }
